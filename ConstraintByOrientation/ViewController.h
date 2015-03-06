@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *upper;
+@property (weak, nonatomic) IBOutlet UIView *lower;
+
 
 @end
 
